@@ -7,6 +7,9 @@
 		"laravel/lumen-framework": "^7.1"
 	},
 	"autoload": {
+		"files": [
+			"src/helpers.php"
+		],
 		"psr-4": {
 			"EngineTemplate\\": "src"
 		}
