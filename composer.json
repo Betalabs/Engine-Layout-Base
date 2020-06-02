@@ -3,10 +3,8 @@
 	"description": "Base package for Engine layouts",
 	"type": "library",
 	"require": {
-        "php": "^7.0"
-	},
-	"require-dev": {
-        "laravel/lumen-framework": "^7.1"
+        "php": "^7.0",
+		"laravel/lumen-framework": "^7.1"
 	},
 	"autoload": {
 		"psr-4": {
