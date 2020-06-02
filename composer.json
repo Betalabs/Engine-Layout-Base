@@ -1,0 +1,16 @@
+{
+	"name": "betalabs/engine-template-base",
+	"description": "Base package for Engine templates",
+	"type": "library",
+	"require": {
+        "php": "^7.0"
+	},
+	"require-dev": {
+        "laravel/lumen-framework": "^7.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"EngineTemplate\\": "src"
+		}
+	}
+}
