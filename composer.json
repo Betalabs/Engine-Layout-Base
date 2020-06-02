@@ -1,6 +1,6 @@
 {
-	"name": "betalabs/engine-template-base",
-	"description": "Base package for Engine templates",
+	"name": "betalabs/engine-layout-base",
+	"description": "Base package for Engine layouts",
 	"type": "library",
 	"require": {
         "php": "^7.0"
