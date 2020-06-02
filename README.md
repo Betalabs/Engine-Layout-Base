@@ -1,2 +1,2 @@
-# Engine-Template-Base
-Base package for Engine templates
+# Engine-Layout-Base
+Base package for Engine layouts
