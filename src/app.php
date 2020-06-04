@@ -34,10 +34,12 @@ $app->withFacades();
 |
 */
 
-/*$app->singleton(
-    Illuminate\Contracts\Debug\ExceptionHandler::class,
-    App\Exceptions\Handler::class
-);*/
+$app->singleton(
+    Illuminate\Contracts\Filesystem\Factory::class,
+    function ($app) {
+        return new Illuminate\Filesystem\FilesystemManager($app);
+    }
+);
 
 /*
 |--------------------------------------------------------------------------
@@ -51,6 +53,7 @@ $app->withFacades();
 */
 
 $app->configure('app');
+$app->configure('filesystems');
 
 
 /*

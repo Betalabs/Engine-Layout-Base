@@ -1,25 +1,14 @@
 <?php
 
-if (!function_exists('fonts')) {
-    function fonts(string $filename) {
-        return $filename;
-    }
-}
-
-if (!function_exists('images')) {
-    function images(string $filename) {
-        return $filename;
-    }
-}
-
-if (!function_exists('scripts')) {
-    function scripts(string $filename) {
-        return $filename;
-    }
-}
-
-if (!function_exists('styles')) {
-    function styles(string $filename) {
-        return $filename;
+if (!function_exists('asset')) {
+    /**
+     * Get full url for current storage configuration.
+     *
+     * @param $path
+     *
+     * @return string
+     */
+    function asset($path) {
+        return \Illuminate\Support\Facades\Storage::url($path);
     }
 }
