@@ -12,23 +12,23 @@
             <ol>
                 <li>
                     <h4 style="margin: 0.5em;">
-                        Create configurations.json file to export to Engine-SelfLayout-Components
+                        Fill configurations.json file with your layout details to export to Engine
                     </h4>
                 </li>
                 <li>
                     <h4 style="margin: 0.5em;">
-                        Fill framework view configuration file at <em>/config/view.php</em>
+                        Fill composer.json file with your package details to submit your package at packagist.org
                     </h4>
                 </li>
-
                 <li>
                     <h4 style="margin: 0.5em;">
-                        Create framework base directories
+                        Let's code!
                     </h4>
-                    <ol>
-                        <li><em>/storage/framework/views</em></li>
-                        <li><em>/storage/framework/logs</em></li>
-                    </ol>
+                </li>
+                <li>
+                    <h4 style="margin: 0.5em;">
+                        Send your layout package details to Betalabs's help team to publish in layouts available pool
+                    </h4>
                 </li>
             </ol>
         </div>
