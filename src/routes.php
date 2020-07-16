@@ -6,7 +6,7 @@
     }
 );
 \Illuminate\Support\Facades\Route::get(
-    'development[/{path:[A-Za-z\/]+}]',
+    'development[/{path:[A-Za-z0-9\/\.\-]+}]',
     function ($path) {
         return view(implode('.', explode('/', $path)));
     }
