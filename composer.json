@@ -5,7 +5,8 @@
 	"require": {
         "php": ">=7.0",
 		"laravel/lumen-framework": "^7.1",
-		"league/flysystem": "^1.0"
+		"league/flysystem": "^1.0",
+		"ext-fileinfo": "*"
 	},
 	"autoload": {
 		"files": [
