@@ -18,7 +18,7 @@ date_default_timezone_set(env('APP_TIMEZONE', 'UTC'));
 */
 
 $app = new Laravel\Lumen\Application(
-    dirname(__DIR__.'/../../../../../')
+    $lumenApplicationBasePath ?? dirname(__DIR__.'/../../../../../')
 );
 
 $app->withFacades();
@@ -39,6 +39,10 @@ $app->singleton(
     function ($app) {
         return new Illuminate\Filesystem\FilesystemManager($app);
     }
+);
+$app->bind(
+    'data-providers',
+    \EngineLayoutBase\App\ServiceProviders\DataProviders::class
 );
 
 /*
@@ -70,6 +74,10 @@ $app->configure('filesystems');
 $app->router->group([
     'namespace' => 'App\Http\Controllers',
 ], function ($router) {
+    if (file_exists(__DIR__.'/../../../../config/routes.php')) {
+        require __DIR__.'/../../../../config/routes.php';
+    }
+
     require __DIR__.'/routes.php';
 });
 
