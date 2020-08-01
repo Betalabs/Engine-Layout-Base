@@ -12,7 +12,7 @@ class DatabaseServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'../../database/migrations');
-        $this->loadFactoriesFrom(__DIR__.'../../database/factories');
+        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+        $this->loadFactoriesFrom(__DIR__.'/../../database/factories');
     }
 }
