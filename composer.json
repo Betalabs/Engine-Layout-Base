@@ -24,7 +24,8 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"EngineLayoutBase\\App\\ServiceProviders\\DataProvidersServiceProvider"
+				"EngineLayoutBase\\App\\ServiceProviders\\DataProvidersServiceProvider",
+				"EngineLayoutBase\\App\\ServiceProviders\\DatabaseServiceProvider"
 			],
 			"aliases": {
 				"DataProviders": "EngineLayoutBase\\App\\Facades\\DataProviders"
