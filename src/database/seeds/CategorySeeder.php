@@ -1,6 +1,8 @@
 <?php
 
-use EngineBasicTheme\Models\Category;
+namespace EngineLayoutBase\Database\Seeds;
+
+use EngineLayoutBase\App\Models\Category;
 use Illuminate\Database\Seeder;
 
 class CategorySeeder extends Seeder

@@ -1,7 +1,9 @@
 <?php
 
-use EngineBasicTheme\Models\Category;
-use EngineBasicTheme\Models\Url;
+namespace EngineLayoutBase\Database\Seeds;
+
+use EngineLayoutBase\App\Models\Category;
+use EngineLayoutBase\App\Models\Url;
 use Illuminate\Database\Seeder;
 
 class CategoryUrlsSeeder extends Seeder

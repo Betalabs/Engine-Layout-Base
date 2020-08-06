@@ -2,7 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use EngineBasicTheme\Models\Url;
+use EngineLayoutBase\App\Models\Url;
 use Faker\Generator as Faker;
 
 /*
