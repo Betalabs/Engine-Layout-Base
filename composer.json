@@ -20,7 +20,7 @@
 		"psr-4": {
 			"EngineLayoutBase\\App\\": "src/app",
 			"EngineLayoutBase\\Tests\\": "tests",
-			"EngineLayoutBase\\Database\\Seeds\\": "database/seeds"
+			"EngineLayoutBase\\Database\\Seeds\\": "src/database/seeds"
 		}
 	},
 	"extra": {
