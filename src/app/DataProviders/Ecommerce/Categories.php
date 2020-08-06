@@ -3,10 +3,11 @@
 namespace EngineLayoutBase\App\DataProviders\Ecommerce;
 
 
+use EngineLayoutBase\App\DataProviders\AbstractDataProvider;
 use EngineLayoutBase\App\DataProviders\Contracts\Ecommerce\CategoriesInterface;
 use EngineLayoutBase\App\Models\Category;
 
-class Categories implements CategoriesInterface
+class Categories extends AbstractDataProvider implements CategoriesInterface
 {
     public function collection()
     {
