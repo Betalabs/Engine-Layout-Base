@@ -1,0 +1,28 @@
+{
+  "data":{
+    "cart":{
+      "total":0,
+      "subtotal":0,
+      "discount":0,
+      "freight":0,
+      "quantity":0,
+      "content":[]
+    },
+    "client":{
+      "id":1234,
+      "name1":"Marcio",
+      "name2":"Vieira",
+      "full_name":"Márcio Vieira",
+      "email":"marcio@vieira.com",
+      "document1":"85083523795",
+      "document2":null,
+      "legal_personality":0,
+      "date_of_birth":null,
+      "gender":null,
+      "created_at":"2020-08-11 16:17:54",
+      "updated_at":"2020-08-11 16:17:54",
+      "telephone":[],
+      "tags":[]
+    }
+  }
+}

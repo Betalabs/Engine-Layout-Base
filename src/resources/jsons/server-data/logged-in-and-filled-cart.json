@@ -1,0 +1,119 @@
+{
+  "data":{
+    "cart":{
+      "content": [
+        {
+          "attributes": {
+            "extra_fields": [],
+            "components": [],
+            "gettable": false,
+            "deliverable": true
+          },
+          "cart": {
+            "code": "25acd238-db33-11ea-b318-02beefa4753f"
+          },
+          "categories": [
+            {
+              "name": "Category test"
+            }
+          ],
+          "conditions": [],
+          "ean": "1234567890123",
+          "extra_fields": {
+            "my_extra_field": {
+              "label": "My extra field",
+              "slug": "my_extra_field",
+              "values": [
+                "This represents a value for the extra field named as My extra field related to this item"
+              ]
+            }
+          },
+          "id": "123456",
+          "image": "https:\/\/placeimg.com\/60\/60\/tech",
+          "name": "This is a test item for my amazing theme for Betalabs Engine",
+          "price": 123.45,
+          "quantity": 1,
+          "sku": "ABC-123",
+          "tags": [
+            {
+              "name": "New item section",
+              "slug": "new-item-section"
+            }
+          ],
+          "type": "item",
+          "urls": [
+            {
+              "url": "products\/abc-123\/url-example"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "extra_fields": [],
+            "components": [],
+            "gettable": false,
+            "deliverable": true
+          },
+          "cart": {
+            "code": "25acd238-db33-11ea-b318-02beefa4753f"
+          },
+          "categories": [
+            {
+              "name": "Category test"
+            }
+          ],
+          "conditions": [],
+          "ean": "9876543210987",
+          "extra_fields": {
+            "my_extra_field": {
+              "label": "My extra field",
+              "slug": "my_extra_field",
+              "values": [
+                "This represents a value for the extra field named as My extra field related to this item"
+              ]
+            }
+          },
+          "id": "654321",
+          "image": "https:\/\/placeimg.com\/60\/60\/tech",
+          "name": "Second test item for this Betalabs Engine's theme",
+          "price": 67.89,
+          "quantity": 2,
+          "sku": "XYZ-456",
+          "tags": [
+            {
+              "name": "Promotional items",
+              "slug": "promotional-items"
+            }
+          ],
+          "type": "item",
+          "urls": [
+            {
+              "url": "products\/xyz-456\/url-sample"
+            }
+          ]
+        }
+      ],
+      "discount": 123.45,
+      "freight": 123.45,
+      "quantity": 99,
+      "subtotal": 123.45,
+      "total": 123.45
+    },
+    "client":{
+      "id":1234,
+      "name1":"Marcio",
+      "name2":"Vieira",
+      "full_name":"Márcio Vieira",
+      "email":"marcio@vieira.com",
+      "document1":"85083523795",
+      "document2":null,
+      "legal_personality":0,
+      "date_of_birth":null,
+      "gender":null,
+      "created_at":"2020-08-11 16:17:54",
+      "updated_at":"2020-08-11 16:17:54",
+      "telephone":[],
+      "tags":[]
+    }
+  }
+}

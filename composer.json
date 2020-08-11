@@ -6,8 +6,9 @@
         "php": ">=7.0",
 		"laravel/framework": "7.*|6.*",
 		"league/flysystem": "^1.0",
+		"riverskies/laravel-mobile-detect": "^1.3",
 		"ext-fileinfo": "*",
-		"riverskies/laravel-mobile-detect": "^1.3"
+		"ext-json": "*"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "^9",
@@ -27,7 +28,8 @@
 		"laravel": {
 			"providers": [
 				"EngineLayoutBase\\App\\ServiceProviders\\DataProvidersServiceProvider",
-				"EngineLayoutBase\\App\\ServiceProviders\\DatabaseServiceProvider"
+				"EngineLayoutBase\\App\\ServiceProviders\\DatabaseServiceProvider",
+				"EngineLayoutBase\\App\\ServiceProviders\\RoutesServiceProvider"
 			],
 			"aliases": {
 				"DataProviders": "EngineLayoutBase\\App\\Facades\\DataProviders"
