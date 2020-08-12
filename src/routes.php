@@ -11,10 +11,15 @@
 \Illuminate\Support\Facades\Route::get(
     '/_data',
     function () {
-        $content = \Illuminate\Support\Facades\File::get(
-            __DIR__.'/../vendor/betalabs/engine-layout-base/src/resources/jsons/server-data/'.config('layout-base.server-data')
-        );
+        $serverDataJson = config('layout-base.server-data');
+        $filename = __DIR__.'/resources/jsons/server-data/'.$serverDataJson;
+        if (!\Illuminate\Support\Facades\File::exists($filename)) {
+            throw new \League\Flysystem\FileNotFoundException(
+                'Server data JSON file `'.$serverDataJson.'` does not exists'
+            );
+        }
 
+        $content = \Illuminate\Support\Facades\File::get($filename);
         return response()->json(json_decode($content, true));
     }
 );
